@@ -1,5 +1,5 @@
 body {
-    background: var(--main-bg-color);
+    background: radial-gradient(circle, #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
 }
   /* Scrollbar */  
   @media only screen and (min-width: 768px) {  
@@ -11,7 +11,7 @@ body {
     body {
         overflow-y: auto;
         height: 100%;
-        background: var(--main-bg-color)
+        background: radial-gradient(circle, #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
     }
 }
     ::-webkit-scrollbar {
@@ -37,7 +37,7 @@ body {
 /* Navbar */
 @media (max-width: 924px) {
     .collapse.in, .navbar-nav {
-        background: var(--main-bg-color);
+        background: radial-gradient(circle, #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
     }
     }
 
@@ -49,10 +49,10 @@ body {
     }
     
 .navbar-default .navbar-brand {
-    color: var(--accent-color);
+    color: #c1c1c1;
 }
 .navbar-default {
-    background: var(--main-bg-color);
+    background: radial-gradient(circle, #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
     border-color: #FFF;
 }
 .nav-tabs {
@@ -78,7 +78,7 @@ body {
     background-color: transparent;
 }
 .ui-tooltip .ui-tooltip-text{
-background-color:var(--modal-bg-color) !important;
+background-color:radial-gradient(circle , #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed !important;
 }
 @media (max-width: 924px) {
     .navbar-collapse.collapse {
@@ -88,10 +88,10 @@ background-color:var(--modal-bg-color) !important;
 
  /* Loading bar */ 
   .pace .pace-progress {
-    background: var(--loading-bar) !important;
+    background: #df691a !important;
 }
 .pace .pace-progress-inner {
-	box-shadow: 0 0 10px var(--loading-bar), 0 0 5px var(--loading-bar) !important;
+	box-shadow: 0 0 10px #df691a, 0 0 5px #df691a !important;
 }
 
 /* Search bar */
@@ -160,7 +160,7 @@ table.table>thead>tr>th.active {
 }
 /*filter */
 .ui-widget-content {
-    background: var(--main-bg-color) !important;
+    background: radial-gradient(circle, #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed !important;
 }
 .ui-state-active {
     color: #ffffff!important;
@@ -172,7 +172,7 @@ table.table>thead>tr>th.active {
 
 /*dropdown menu */
 .dropdown-menu {
-    background: var(--modal-bg-color);
+    background: radial-gradient(circle , #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
 }
 .dropdown-menu>li>a:hover {
@@ -192,17 +192,17 @@ hr {
 
 /* Buttons */
 .btn-primary-outline{
-    color: var(--request-button) !important;
-    border-color: var(--request-button) !important;
+    color: #c1c1c1 !important;
+    border-color: #c1c1c1 !important;
     outline: none !important; 
 }
 .open>.btn-primary-outline.dropdown-toggle,.btn-primary-outline.active, .btn-primary-outline.focus, .btn-primary-outline:active, .btn-primary-outline:focus, .btn-primary-outline:hover{
-    background-color: var(--request-button-hover) !important;
+    background-color: #c1c1c1 !important;
     border-color: transparent !important;    
 }
 
 .btn-primary-outline:hover {
-    background-color: var(--request-button-hover) !important;
+    background-color: #c1c1c1 !important;
 	border-color: transparent!important;
 }
 .btn-link {
@@ -394,7 +394,7 @@ a.active {
 }
 
 .ui-state-highlight {
-background: var(--modal-bg-color);
+background: radial-gradient(circle , #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
 }
 legend {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -404,10 +404,10 @@ legend {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6) !important;
 }
 a>h4 {
-    color: var(--accent-color);
+    color: #c1c1c1;
 }
 .label-info {
-    background-color: var(--label-color);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 .label-success {
     background-color: rgba(92, 184, 92, 0.75);
@@ -437,15 +437,7 @@ a>h4 {
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 3px #000;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 3px #000;
 }
-:root {
-  --main-bg-color: radial-gradient(circle, #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
-  --modal-bg-color: radial-gradient(circle , #3a3a3a, #2d2d2d, #202020, #141414, #000000) center center/cover no-repeat fixed;
-  --request-button: #c1c1c1;
-  --request-button-hover: rgba(255, 255, 255, 0.25);
-  --loading-bar: #df691a; 
-  --accent-color: #c1c1c1;
-  --label-color: rgba(255, 255, 255, 0.25);
-}
+
 .btn {
 text-transform: uppercase;
 font-size: 14px;
