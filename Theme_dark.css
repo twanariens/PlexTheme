@@ -1,0 +1,26 @@
+@import "https://gilbn.github.io/theme.park/CSS/themes/ombi/dark.css";
+
+.btn {
+text-transform: uppercase;
+font-size: 14px;
+}
+
+.btn-primary-outline {
+width: 100%;
+}
+
+.btn.btn-primary-outline.disabled {
+background-color:#fb535b;
+}
+
+.btn.btn-success-outline.disabled {
+background-color:#5cb85c;
+}
+
+.top-spacing[_ngcontent-c0] {
+    padding-top: 2%;
+}
+
+.container-fluid {
+    border-bottom: solid 1px white;
+}
